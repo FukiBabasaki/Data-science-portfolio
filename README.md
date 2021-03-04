@@ -1,5 +1,5 @@
 # Data science portfolio by Fuki Babasaki
-Hi!! I am a 3rd software engineering student, learning data science practices. My interests include statistics and I hope to improve my data analysis skills and explore ML algoriithms through building this portfolio! Mainly, Python with Scikit-Learn is used. I'd like to learn how to use Keras, TensorFlow, AWS and REST API in the future.
+Hi!! I am a 3rd year software engineering student, learning data science practices. My interests include statistics and I hope to improve my data analysis skills and explore more ML algoriithms through building this portfolio! Mainly, Python with Scikit-Learn is used. I'd like to learn how to use Keras, TensorFlow, AWS and REST API in the future.
 
 ## Dependencies
 One main source of dataset is kaggle, and kaggle API is used for data extraction. Use the package manager pip to install kaggle. \

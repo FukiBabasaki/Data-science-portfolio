@@ -22,6 +22,7 @@ House prices: Advanced Regression Techniques is a knowledge competition on Kaggl
 - Linear Regression, Adaboost and Random Forest regression were considered for a model. Cross-validation was used for evaluation.
 - Final model I chose is Random Forest regressor, and GridSearchCV was used for best hyperparameters.
 - The description and data are available [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) on Kaggle.
+![](https://github.com/Fuki-UoA/Data-science-portfolio/blob/main/Notebooks/Supervised/House-price-prediction/images/OverallQualvsYearBuilt.png)
 ## Classification problems
 
 

@@ -24,5 +24,4 @@ House prices: Advanced Regression Techniques is a knowledge competition on Kaggl
 - The description and data are available [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) on Kaggle.
 ![](https://github.com/Fuki-UoA/Data-science-portfolio/blob/main/Notebooks/Supervised/House-price-prediction/images/OverallQualvsYearBuilt.png)
 ## Classification problems
-
-
+## Clustering problems

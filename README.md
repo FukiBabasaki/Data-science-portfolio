@@ -44,6 +44,6 @@ House prices: Advanced Regression Techniques is a knowledge competition on Kaggl
 
 - The description and data are available [here](https://www.kaggle.com/c/titanic) on Kaggle.
 
-![](Notebooks/Supervised/Titanic-classification/images/cdp.png)
+![](https://github.com/Fuki-UoA/Data-science-portfolio/blob/main/Notebooks/Supervised/Titanic-classification/images/cdp.png)
 
 ## Clustering problems

@@ -15,7 +15,7 @@ pip install kaggle
 Kaggle API token is also needed. See https://www.kaggle.com/docs/api
 ## Regression problems
 ### House prices: Advanced Regression Techniques
-[GitHub](https://github.com/Fuki-UoA/Data-science-portfolio/blob/main/Notebooks/Supervised/House-price-prediction/House%20price%20prediction.ipynb) \
+[GitHub](https://github.com/Fuki-UoA/Data-science-portfolio/blob/main/Notebooks/Supervised/House-price-prediction/House%20price%20prediction.ipynb) 
 House prices: Advanced Regression Techniques is a knowledge competition on Kaggle. 
 
 - Created a model that estimates the prices based on the information of houses. 
@@ -37,5 +37,13 @@ House prices: Advanced Regression Techniques is a knowledge competition on Kaggl
 ![](Notebooks/Supervised/earthquake-prediction/images/download.png) 
 
 ## Classification problems
+
+### Titanic - Machine Learning from Disaster 
+
+[GitHub](https://github.com/Fuki-UoA/Data-science-portfolio/blob/main/Notebooks/Supervised/Titanic-classification/titanic-classification.ipynb) 
+
+- The description and data are available [here](https://www.kaggle.com/c/titanic) on Kaggle.
+
+![](Notebooks/Supervised/Titanic-classification/images/cdp.png)
 
 ## Clustering problems

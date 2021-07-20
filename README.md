@@ -26,16 +26,6 @@ House prices: Advanced Regression Techniques is a knowledge competition on Kaggl
 - The description and data are available [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) on Kaggle.
 ![](Notebooks/Supervised/House-price-prediction/images/OverallQualvsYearBuilt.png)
 
-### Prediction: average number of earthquakes for their magnitudes.
-
-[GitHub](https://github.com/Fuki-UoA/Data-science-portfolio/blob/main/Notebooks/Supervised/earthquake-prediction/earthquake-pred.ipynb) 
-
-- Dataset provided by one of the courses I did at the University of Auckland.
-- I tried to build a descriptive model rather than predictive. statsmodels library was used to implement the model.
-- Poisson regression model was chosen as the response variable (number of earthquakes) is a count.
-
-![](Notebooks/Supervised/earthquake-prediction/images/download.png) 
-
 ## Classification problems
 
 ### Titanic - Machine Learning from Disaster 

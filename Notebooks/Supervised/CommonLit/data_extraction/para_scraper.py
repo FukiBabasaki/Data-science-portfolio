@@ -82,7 +82,7 @@ for id in book_ids:
 
 data = books.loc[~books['id'].isin(to_remove)]
 data['excerpt'] = np.asarray(result)
-data.to_csv('dataset/web_scraped.csv')
+data.to_csv('dataset/web_scraped.csv', index=False)
 
 if __name__ == "__main__":
     pass

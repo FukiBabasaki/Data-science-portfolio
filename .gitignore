@@ -133,3 +133,4 @@ dmypy.json
 *.csv
 Notebooks/Supervised/CommonLit/dataset/.~lock.web_scraped.csv#
 Notebooks/Supervised/CommonLit/config/config.json
+*.odt

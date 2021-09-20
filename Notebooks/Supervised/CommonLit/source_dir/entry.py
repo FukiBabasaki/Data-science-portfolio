@@ -1,9 +1,29 @@
-import pickle
-import os
+import json, os, pickle, xgboost
+from urllib import request
 import pandas as pd
-
+from azureml.core import model
+import nltk
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+def init():
+    global model
+    
+    nltk.download(info_or_id='punkt', download_dir='/usr/local/lib/nltk_data')
+    
+    with open(os.path.join(os.getenv("AZUREML_MODEL_DIR"), 'xgb_final.sav'), "rb") as f:
+        model = pickle.load(f)
+    
+
+def run(request):
+    df = pd.read_json(request)
+    X = get_X(stem_dataset(df))
+    y = model.predict(X)
+    
+    print(y)
+    return json.dumps(y.tolist())
+
 
 def stem_sentence(sentence):
     """ Given a sentence,
@@ -41,8 +61,6 @@ def stem_dataset(dataset):
     return dataset_copy
 
 
-from sklearn.feature_extraction.text import TfidfVectorizer
-
 def get_X(clean_data):
     vectorizer = TfidfVectorizer(lowercase=True,token_pattern=r'(?u)\b[A-Za-z]+\b',stop_words='english',max_features=2000,strip_accents='unicode')
     vectorizer.fit(clean_data['clean_excerpt'].values)
@@ -54,17 +72,3 @@ def get_X(clean_data):
         X = X.append(pd.DataFrame(numbers.toarray()))
 
     return X
-
-
-with open("models/xgb_final.sav", "rb") as f:
-    model = pickle.load(f)
-
-df = pd.read_csv("dataset/web_scraped.csv")
-
-X = get_X(stem_dataset(df))
-y = model.predict(X)
-
-results = pd.DataFrame(y, columns=['predicted'])
-output = df.join(results)
-
-output.to_csv("dataset/pred_web.csv", index=False)

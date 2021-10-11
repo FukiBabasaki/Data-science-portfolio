@@ -34,6 +34,8 @@ Multi-label classification problem with at most 49 classes.
 - Models shortlisted: XGBoost, Random Forest, Simple Sequential NNET, Simple CNN.
 - Achieved over 85% accuracy on the test set.
 
+![](https://github.com/rois-codh/kmnist/blob/master/images/kmnist_examples.png)
+
 ### Titanic - Machine Learning from Disaster 
 
 [GitHub](https://github.com/Fuki-UoA/Data-science-portfolio/blob/main/Notebooks/Supervised/Titanic-classification/titanic-classification.ipynb) 

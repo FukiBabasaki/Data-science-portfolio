@@ -32,7 +32,7 @@ Multi-label classification problem with at most 49 classes.
 - Dataset is from [here](https://github.com/rois-codh/kmnist)
 - Cleaned dataset as several characters were very uncommon in real world.
 - Models shortlisted: XGBoost, Random Forest, Simple Sequential NNET, Simple CNN.
-- Achieved over 85% accuracy on the test set.
+- Achieved over 87% accuracy on the test set.
 
 ![](https://github.com/rois-codh/kmnist/blob/master/images/kmnist_examples.png)
 

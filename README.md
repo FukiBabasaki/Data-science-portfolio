@@ -2,17 +2,12 @@
 Hi! I am a 3rd year software engineering student, learning data science practices. My interests include statistics and I hope to improve my data analysis skills and explore more ML algorithms through building this portfolio! Mainly using pandas, matplotlib and seaborn to visualise data and scikit-learn to preprocess data, build, evaluate and hyper-tune models.
 
 ## Dependencies
-One main source of dataset is kaggle, and kaggle API is used for data extraction. Use the package manager pip to install kaggle. \
-For python 3.4 or later
+The code is in Python 3.6+ with common packages for machine learning and data analysis. There is requirement.txt in this repository and you can:
 
 ```bash
-python -m pip install kaggle
+$ python -m pip install -r requirements.txt
 ```
-For earlier versions
-```bash
-pip install kaggle
-```
-Kaggle API token is also needed. See https://www.kaggle.com/docs/api
+
 ## Regression problems
 ### House prices: Advanced Regression Techniques
 [GitHub](https://github.com/Fuki-UoA/Data-science-portfolio/blob/main/Notebooks/Supervised/House-price-prediction/House%20price%20prediction.ipynb) 
@@ -28,6 +23,17 @@ House prices: Advanced Regression Techniques is a knowledge competition on Kaggl
 
 ## Classification problems
 
+### Hiragana Recogniser
+
+[GitHub: Notebook](https://github.com/Fuki-UoA/hiragana-recogniser/blob/main/ml/hiragana-classification.ipynb) [GitHub: Repo](https://github.com/Fuki-UoA/hiragana-recogniser) 
+
+Multi-label classification problem with at most 49 classes.
+
+- Dataset is from [here](https://github.com/rois-codh/kmnist)
+- Cleaned dataset as several characters were very uncommon in real world.
+- Models shortlisted: XGBoost, Random Forest, Simple Sequential NNET, Simple CNN.
+- Achieved over 85% accuracy on the test set.
+
 ### Titanic - Machine Learning from Disaster 
 
 [GitHub](https://github.com/Fuki-UoA/Data-science-portfolio/blob/main/Notebooks/Supervised/Titanic-classification/titanic-classification.ipynb) 
@@ -42,5 +48,3 @@ It is a typical *binary classification problem* where the main goal is to build 
 - The description and data are available [here](https://www.kaggle.com/c/titanic) on Kaggle.
 
 ![](Notebooks/Supervised/Titanic-classification/images/cdp.png)
-
-## Clustering problems

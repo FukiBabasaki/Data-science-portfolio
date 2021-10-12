@@ -25,14 +25,14 @@ House prices: Advanced Regression Techniques is a knowledge competition on Kaggl
 
 ### Hiragana Recogniser
 
-[GitHub: Notebook](https://github.com/Fuki-UoA/hiragana-recogniser/blob/main/ml/hiragana-classification.ipynb) [GitHub: Repo](https://github.com/Fuki-UoA/hiragana-recogniser) 
+[GitHub: Notebook](https://github.com/Fuki-UoA/hiragana-recogniser/blob/main/ml/hiragana-classificationV2.ipynb) [GitHub: Repo](https://github.com/Fuki-UoA/hiragana-recogniser) 
 
-Multi-label classification problem with at most 49 classes.
+Multi-label classification problem with 70 classes.
 
-- Dataset is from [here](https://github.com/rois-codh/kmnist)
-- Cleaned dataset as several characters were very uncommon in real world.
-- Models shortlisted: XGBoost, Random Forest, Simple Sequential NNET, Simple CNN.
-- Achieved over 87% accuracy on the test set.
+- Dataset is from [here](http://etlcdb.db.aist.go.jp/specification-of-etl-8)
+- Cleaned dataset as there were instances corresponding to non-hiragana characters.
+- Applied CNN, early stopping (for epochs) and data augmentation.
+- Achieved over 98.8% accuracy on the test set.
 
 ![](https://github.com/rois-codh/kmnist/blob/master/images/kmnist_examples.png)
 

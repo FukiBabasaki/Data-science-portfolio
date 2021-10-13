@@ -27,7 +27,7 @@ House prices: Advanced Regression Techniques is a knowledge competition on Kaggl
 
 [GitHub: Notebook](https://github.com/Fuki-UoA/hiragana-recogniser/blob/main/ml/hiragana-classificationV2.ipynb) [GitHub: Repo](https://github.com/Fuki-UoA/hiragana-recogniser) 
 
-[demo](http://3.26.65.5/)
+[demo](http://www.fukibabasaki.com/hiragana-recogniser)
 
 Multi-label classification problem with 70 classes.
 
